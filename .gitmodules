@@ -4,6 +4,6 @@
 [submodule "fluent-emojis"]
 	path = fluent-emojis
 	url = https://github.com/misskey-dev/emojis.git
-[submodule "fonts/koruri"]
-	path = fonts/koruri
-	url = https://github.com/Koruri/Koruri.git
+[submodule "packages/frontend/assets/koruri"]
+	path = packages/frontend/assets/koruri
+	url = https://github.com/koruri/koruri.git
