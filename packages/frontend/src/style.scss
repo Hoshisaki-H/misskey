@@ -34,8 +34,8 @@ html {
 	color: var(--fg);
 	accent-color: var(--accent);
 	overflow: auto;
-	overflow-wrap: break-word;
-	@import url(/fonts/koruri);
+	overflow-wrap: break-word
+	@include font-face("Koruri", "/fonts/koruri" , 400, normal);
 	font-family: 'Koruri', "BIZ UDGothic", Roboto, HelveticaNeue, Arial, sans-serif;
 	font-size: 14px;
 	line-height: 1.35;
