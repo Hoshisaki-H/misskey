@@ -6,6 +6,20 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
+@font-face {
+  font-family: "Koruri";
+  src: url("/assets/Koruri/Koruri-Regular.woff") format("woff"),
+       url("/assets/Koruri/Koruri-Regular.ttf") format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Koruri";
+  src: url("/assets/Koruri/Koruri-Bold.woff") format("woff"),
+       url("/assets/Koruri/Koruri-Bold.ttf") format("truetype");
+  font-weight: bold;
+}
+
 :root {
 	--radius: 12px;
 	--marginFull: 16px;
@@ -35,7 +49,6 @@ html {
 	accent-color: var(--accent);
 	overflow: auto;
 	overflow-wrap: break-word
-	@include font-face("Koruri", "/fonts/koruri" , 400, normal);
 	font-family: 'Koruri', "BIZ UDGothic", Roboto, HelveticaNeue, Arial, sans-serif;
 	font-size: 14px;
 	line-height: 1.35;
